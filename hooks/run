@@ -2,7 +2,4 @@
 
 exec 2>&1
 
-while true; do
-  echo "Sleeping ..."
-  sleep 10
-done
+exec {{pkg.path}}/sbin/sshd -D -f {{pkg.svc_config_path}}/sshd_config

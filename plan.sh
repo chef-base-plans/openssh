@@ -27,6 +27,4 @@ do_build() {
 
 do_install() {
   make install-nosysconf
-  mkdir -p "${pkg_prefix}/var/empty"
-  chmod 700 "${pkg_prefix}/var/empty"
 }

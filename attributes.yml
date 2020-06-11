@@ -1,1 +1,2 @@
-command_path: '/sbin/sshd'
+command_relative_path: 'sbin/sshd'
+listening_port: '2222'

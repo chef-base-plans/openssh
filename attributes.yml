@@ -1,2 +1,2 @@
-command_relative_path: 'sbin/sshd'
+plan_name: 'openssh'
 listening_port: '2222'
